@@ -1,3 +1,5 @@
+.env
+node_modules
 __pycache__
 .venv
 dist
@@ -5,8 +7,14 @@ build
 .eggs
 *.pyc
 *.db
-.env
 .idea
 .vscode
+.coverage
+htmlcov
+/dist
+/build
+/__pycache__
+/htmlcov
+.DS_Store
 AGENTS.md
 CLAUDE.md

@@ -2,6 +2,8 @@
 
 A lightweight CLI for assessing historical source reliability from a local text corpus.
 
+Checkout the repo: https://github.com/ethancarter-ai/histinsights
+
 ## Install
 
 ```bash
