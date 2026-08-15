@@ -11,10 +11,9 @@ build
 .vscode
 .coverage
 htmlcov
-/dist
-/build
-/__pycache__
-/htmlcov
 .DS_Store
+.pytest_cache
+.mypy_cache
+*.egg-info
 AGENTS.md
 CLAUDE.md
