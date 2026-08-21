@@ -18,10 +18,20 @@ histinsights --source-dir ./corpus
 
 Run `histinsights --help` for all options.
 
-## Features
+## Project structure
 
-- Sign confidence scores for document batches.
-- Simple, dependency-free keyword-density scoring over local text files.
+```
+histinsights/
+  src/histinsights/
+    __init__.py
+    __main__.py
+    cli.py
+  corpus/
+    ancient.txt
+    modern.txt
+  tests/
+    test_cli.py
+```
 
 ## License
 
