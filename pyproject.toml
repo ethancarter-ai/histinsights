@@ -13,4 +13,6 @@ dependencies = []
 histinsights = "histinsights.cli:main"
 
 [project.urls]
+Homepage = "https://github.com/ethancarter-ai/histinsights"
 Repository = "https://github.com/ethancarter-ai/histinsights"
+Issues = "https://github.com/ethancarter-ai/histinsights/issues"
