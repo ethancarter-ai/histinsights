@@ -16,3 +16,9 @@ histinsights = "histinsights.cli:main"
 Homepage = "https://github.com/ethancarter-ai/histinsights"
 Repository = "https://github.com/ethancarter-ai/histinsights"
 Issues = "https://github.com/ethancarter-ai/histinsights/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+exclude = [".github"]
