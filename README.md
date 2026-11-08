@@ -21,16 +21,23 @@ Run `histinsights --help` for all options.
 ## Project structure
 
 ```
-histinsights/
-  src/histinsights/
-    __init__.py
-    __main__.py
-    cli.py
-  corpus/
-    ancient.txt
-    modern.txt
-  tests/
-    test_cli.py
+.github/
+.github/workflows/
+.github/workflows/tests.yml
+.gitignore
+LICENSE
+README.md
+corpus/
+corpus/ancient.txt
+corpus/modern.txt
+pyproject.toml
+src/
+src/histinsights/
+src/histinsights/__init__.py
+src/histinsights/__main__.py
+src/histinsights/cli.py
+tests/
+tests/test_cli.py
 ```
 
 ## License

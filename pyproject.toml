@@ -9,6 +9,9 @@ description = "Assess historical source reliability from a local text corpus."
 requires-python = ">=3.9"
 dependencies = []
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
 [project.scripts]
 histinsights = "histinsights.cli:main"
 
